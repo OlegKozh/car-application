@@ -17,6 +17,9 @@ public class App {
         // Car car = carDealer.getCar(price, year, mileage);
         Car car = new Car(engine, wheels, lamps);
         System.out.println(car.getDescription());
+        System.out.println(car.getDescription());
+        System.out.println(car.getDescription());
+        System.out.println(car.getDescription());
         List<Lamp> snatchedLamps = car.snatchLamps();
         for (Lamp lamp: snatchedLamps) {
             if (lamp.isDirty()) {
