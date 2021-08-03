@@ -20,6 +20,7 @@ public class App {
         System.out.println(car.getDescription());
         System.out.println(car.getDescription());
         System.out.println(car.getDescription());
+        Car car2 = new Car(engine, wheels, lamps);
         List<Lamp> snatchedLamps = car.snatchLamps();
         for (Lamp lamp: snatchedLamps) {
             if (lamp.isDirty()) {
