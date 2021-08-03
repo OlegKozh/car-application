@@ -37,4 +37,9 @@ public class Car {
     public Integer getCurrentSpeed() {
         return currentSpeed;
     }
+
+    public String getDescription() {
+        return "currentGearBoxPosition: " + currentGearBoxPosition + "\n" +
+             "fuelConsumption: " + fuelConsumption + "\n";
+    }
 }
